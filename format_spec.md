@@ -79,6 +79,10 @@ The `src` field is valid for both `video` and `image`. It contains a direct URI 
 
 TODO: can src be a list?
 
+##### `id`
+
+Optional field which identifies this media file, allowing it to be used in <media> tags.
+
 ##### `caption` (optional)
 
 An optional string which can be displayed as a caption for the current Media Item. Formatted Text CANNOT be used. `caption` CANNOT be present when `rel` is set to `icon`.
