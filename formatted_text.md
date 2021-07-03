@@ -62,7 +62,7 @@ Note that line breaks and paragraph breaks are not allowed in inline context.
 
 ## Embedded content
 
-* `<media id="..."/>` - display an image or video from the project. All content within the element is ignored (even `<vis>`). (TODO: what does the ID refer to?)
+* `<media id="..."/>` - display an image or video from the project. All content within the element is ignored (even `<vis>`). (See the `id` attribute of media items)
 * `<youtube id="..."/>` - youtube embed
 
 Unlike in HTML, media elements are considered block elements (i.e. they interrupt a paragraph and display on their own).
